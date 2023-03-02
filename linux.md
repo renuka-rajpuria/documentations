@@ -14,10 +14,7 @@ Users could even write simple code (called **shell scripts**) which could be use
 | Command  | Function | Comments |
 | ------------- | ------------- | ------------- |
 | pwd  | print working directory  | all file operations will take place here |
-| cd  | change directory  | cd / or simple cd will take to root directory |
-| cd <DIRECTORY_NAME> | change directory to given one | immediate sub-directory of "/" is home |
-| cd .. | to go to parent directory | remember the space |
-| cd ../.. | moving through multiple levels of parent directories | remember the space |
+| cd  | change directory  | see variations |
 
 ## Basics
 1. /home/YOUR_USERNAME - computer’s way of prompting you that it is ready for commands therefore it is a prompt.
@@ -30,11 +27,7 @@ Users could even write simple code (called **shell scripts**) which could be use
 3. "/" directory which is the root directory, is the base of the unified Linux file system. From there everything else branches out. (cd / -> root). 
 4. Unified file system -  each drive is not split up differently.
 5. Individual drives can be attached (“mounted”) to whatever location in the file system makes most sense.
-6. From home to “etc” directory (which is directly inside the root of the file system) 
-```
-cd ../../etc
-```
-
+6. From home to “etc” directory (which is directly inside the root of the file system) _cd ../../etc_
 
 | Command  | Function | Comments |
 | ------------- | ------------- | ------------- |
