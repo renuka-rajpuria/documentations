@@ -30,10 +30,10 @@ Users could even write simple code (called **shell scripts**) which could be use
 3. "/" directory which is the root directory, is the base of the unified Linux file system. From there everything else branches out. (cd / -> root). 
 4. Unified file system -  each drive is not split up differently.
 5. Individual drives can be attached (“mounted”) to whatever location in the file system makes most sense.
-6. From home to “etc” directory (which is directly inside the root of the file system)
-```
-cd ../../etc
-```
+6. From home to “etc” directory (which is directly inside the root of the file system) ```
+    cd ../../etc
+    ```
+
 
 | Command  | Function | Comments |
 | ------------- | ------------- | ------------- |
