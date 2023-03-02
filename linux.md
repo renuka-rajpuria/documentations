@@ -1,3 +1,6 @@
+## References
+[Linux Beginners Guide] (https://ubuntu.com/tutorials/command-line-for-beginners)
+
 ## Introduction
 Wrapping the user’s commands this **shell** program.
 
@@ -14,7 +17,7 @@ Users could even write simple code (called **shell scripts**) which could be use
 | Command  | Function | Comments |
 | ------------- | ------------- | ------------- |
 | pwd  | print working directory  | all file operations will take place here |
-| cd  | change directory  | see variations |
+| cd  | change directory  | [see variations] () |
 
 ## Basics
 1. /home/YOUR_USERNAME - computer’s way of prompting you that it is ready for commands therefore it is a prompt.
