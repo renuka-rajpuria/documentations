@@ -13,13 +13,23 @@ Users could even write simple code (called **shell scripts**) which could be use
 ## Commands
 | Command  | Function | Comments |
 | ------------- | ------------- | ------------- |
-| pwd  | Present Working directory  | all small case
+| pwd  | print working directory  | all file operations will take place here |
+| cd  | change directory  |  |
+
 
 
 ## Basics
-1. /home/YOUR_USERNAME - computer’s way of prompting you that it is ready for commands.
+1. /home/YOUR_USERNAME - computer’s way of prompting you that it is ready for commands therefore it is a prompt.
 2. Linux is case sensitive - sometimes the command will not run and other times it can run to give undesired output.
 3. Command Line - shell running in a terminal.
+
+## File System and the root directory
+1. Directory separator is a forward slash (”/”), unlike Windows (backward slash).
+2. Root has multiple meanings in the Linux world, so context is important.
+3. "/" directory which is the root directory, is the base of the unified Linux file system. From there everything else branches out. (cd / -> root). 
+4. Unified file system -  each drive is not split up differently.
+5. Individual drives can be attached (“mounted”) to whatever location in the file system makes most sense.
+
 
 
 
