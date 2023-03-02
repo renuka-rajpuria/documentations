@@ -4,3 +4,4 @@ This repositry is meant for personalized guides of various developer tools, the 
 ## The current ones include:
 - Markdown Guide
 - Linux Guide
+- Github Guide
