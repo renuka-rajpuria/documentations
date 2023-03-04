@@ -48,25 +48,36 @@ Users could even write simple code (called **shell scripts**) which could be use
 
 1. Remember to do the following everytime you login to your system:
 
-`sudo apt update
-sudo apt-get upgrade (There are different variations of this)`
+```
+sudo apt update
+sudo apt-get upgrade (There are different variations of this)
+```
 
 2. To check version of ubuntu go for neofetch, if not installed type:
 
-`sudo apt install neofetch`
+```
+sudo apt install neofetch
+```
 
 3. To check version for Python:
 
-`python --version or python3 --version
-python -V or python3 -V (Check the capital V, if you write small V it will go in the interpreter)`
+```
+python --version or python3 --version
+python -V or python3 -V
+```
+(Check the capital V, if you write small V it will go in the interpreter)
 
 4. To install gcc:
 
-`sudo apt install gcc`
+```
+sudo apt install gcc
+```
 
 5. If you have python3 and do not want to write it repeatedly:
 
-`sudo apt install python-is-python3`
+```
+sudo apt install python-is-python3
+```
 
 
 ## Useful Addons/Applications
