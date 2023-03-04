@@ -31,6 +31,7 @@ Users could even write simple code (called **shell scripts**) which could be use
 4. Unified file system -  each drive is not split up differently.
 5. Individual drives can be attached (“mounted”) to whatever location in the file system makes most sense.
 6. From home to “etc” directory (which is directly inside the root of the file system) _cd ../../etc_
+7. Relative v/s absolute paths - 
 
 | Command  | Function | Comments |
 | ------------- | ------------- | ------------- |
@@ -39,7 +40,8 @@ Users could even write simple code (called **shell scripts**) which could be use
 | cd <DIRECTORY_NAME> | change directory to given one | immediate sub-directory of "/" is home |
 | cd .. | to go to parent directory | remember the space |
 | cd ../.. | moving through multiple levels of parent directories | starting from the working directory, move to the parent / from that new location move to the parent again |
-| cd ../../etc | moving from destination to required file | starting from the working directory, move to the parent / from that new location move to the parent again |
+| cd ../../etc | moving from destination to required file | go straight from our home directory to the “etc” directory (which is directly inside the root of the file system) |
+
 
 ## Useful Addons/Applications
 
