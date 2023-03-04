@@ -39,7 +39,7 @@ Users could even write simple code (called **shell scripts**) which could be use
 | ------------- | ------------- | ------------- |
 | pwd  | print working directory  | all file operations will take place here |
 | cd  | change directory  | cd / or simple cd will take to root directory |
-| cd <DIRECTORY_NAME> | change directory to given one | immediate sub-directory of "/" is home |
+| cd <DIR_NAME> | change directory to given one | immediate sub-directory of "/" is home |
 | cd .. | to go to parent directory | remember the space |
 | cd ../.. | moving through multiple levels of parent directories | starting from the working directory, move to the parent / from that new location move to the parent again |
 | cd ../../etc | moving from destination to required file | go straight from our home directory to the “etc” directory (which is directly inside the root of the file system) |
