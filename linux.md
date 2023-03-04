@@ -32,7 +32,7 @@ Users could even write simple code (called **shell scripts**) which could be use
 3. "/" directory which is the root directory, is the base of the unified Linux file system. From there everything else branches out. (cd / -> root). 
 4. Unified file system -  each drive is not split up differently.
 5. Individual drives can be attached (“mounted”) to whatever location in the file system makes most sense.
-6. From home to “etc” directory (which is directly inside the root of the file system) _cd ../../etc_
+6. From home to “etc” directory (which is directly inside the root of the file system) `cd ../../etc`
 7. Relative v/s absolute paths - 
 
 | Command  | Function | Comments |
@@ -48,17 +48,25 @@ Users could even write simple code (called **shell scripts**) which could be use
 
 1. Remember to do the following everytime you login to your system:
 
-sudo apt update
-sudo apt-get upgrade (There are different variations of this)
+`sudo apt update
+sudo apt-get upgrade (There are different variations of this)`
 
 2. To check version of ubuntu go for neofetch, if not installed type:
 
-sudo apt install neofetch
+`sudo apt install neofetch`
 
-3. To check version for Python
+3. To check version for Python:
 
-python --version or python3 --version
-python -V or python3 -V (Check the capital V, if you write small V it will go in the interpreter)
+`python --version or python3 --version
+python -V or python3 -V (Check the capital V, if you write small V it will go in the interpreter)`
+
+4. To install gcc:
+
+`sudo apt install gcc`
+
+5. If you have python3 and do not want to write it repeatedly:
+
+`sudo apt install python-is-python3`
 
 
 ## Useful Addons/Applications
