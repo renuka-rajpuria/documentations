@@ -12,6 +12,8 @@ Users could even write simple code (called **shell scripts**) which could be use
 | Shortcut  | Use case |
 | ------------- | ------------- |
 | Ctrl-Alt-T  | Open the terminal  |
+| Ctrl-C  |  (control character intr) sends SIGINT which will interrupt the application. |
+| Ctrl-Z  | (control character susp) sends SIGTSTP to a foreground application, effectively putting it in the background, suspended. |
 
 ## All Commands
 | Command  | Function | Comments |
@@ -41,6 +43,22 @@ Users could even write simple code (called **shell scripts**) which could be use
 | cd .. | to go to parent directory | remember the space |
 | cd ../.. | moving through multiple levels of parent directories | starting from the working directory, move to the parent / from that new location move to the parent again |
 | cd ../../etc | moving from destination to required file | go straight from our home directory to the “etc” directory (which is directly inside the root of the file system) |
+
+## For absolute beginners
+
+1. Remember to do the following everytime you login to your system:
+
+sudo apt update
+sudo apt-get upgrade (There are different variations of this)
+
+2. To check version of ubuntu go for neofetch, if not installed type:
+
+sudo apt install neofetch
+
+3. To check version for Python
+
+python --version or python3 --version
+python -V or python3 -V (Check the capital V, if you write small V it will go in the interpreter)
 
 
 ## Useful Addons/Applications
