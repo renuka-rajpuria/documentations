@@ -50,13 +50,12 @@ Users could even write simple code (called **shell scripts**) which could be use
 
 ## For absolute beginners
 
-1. Remember to do the following everytime you login to your system:
+1. Remember to do the following everytime you login to your system: [(Reference)](https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/)
 
 ```
 sudo apt update
 sudo apt-get upgrade (There are different variations of this)
 ```
-[Reference](https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/)
 
 2. To check version of ubuntu go for neofetch, if not installed type:
 
@@ -102,6 +101,8 @@ sudo apt install snapd
 ```
 code .
 ```
+
+8. To 
 
 ## Useful Addons/Applications
 
