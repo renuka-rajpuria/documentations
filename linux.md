@@ -56,6 +56,7 @@ Users could even write simple code (called **shell scripts**) which could be use
 sudo apt update
 sudo apt-get upgrade (There are different variations of this)
 ```
+[Reference](https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/)
 
 2. To check version of ubuntu go for neofetch, if not installed type:
 
@@ -101,7 +102,6 @@ sudo apt install snapd
 ```
 code .
 ```
-https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/
 
 ## Useful Addons/Applications
 
