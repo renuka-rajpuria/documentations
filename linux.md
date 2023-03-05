@@ -101,7 +101,7 @@ sudo apt install snapd
 ```
 code .
 ```
-
+https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/
 
 ## Useful Addons/Applications
 
