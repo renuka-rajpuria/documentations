@@ -14,12 +14,16 @@ Users could even write simple code (called **shell scripts**) which could be use
 | Ctrl-Alt-T  | Open the terminal  |
 | Ctrl-C  |  (control character intr) sends SIGINT which will interrupt the application. |
 | Ctrl-Z  | (control character susp) sends SIGTSTP to a foreground application, effectively putting it in the background, suspended. |
+| Ctrl-Shft-C  | Copying in the terminal |
+| Ctrl-Shft-V  | Pasting in the terminal |
 
 ## All Commands
 | Command  | Function | Comments |
 | ------------- | ------------- | ------------- |
 | pwd  | print working directory  | all file operations will take place here |
 | cd  | change directory  | [see variations]() |
+| ls  | list  |  |
+
 
 ## Basics
 1. /home/YOUR_USERNAME - computer’s way of prompting you that it is ready for commands therefore it is a prompt.
@@ -71,12 +75,31 @@ python -V or python3 -V
 
 ```
 sudo apt install gcc
+sudo apt install g++
+
 ```
 
 5. If you have python3 and do not want to write it repeatedly:
 
 ```
 sudo apt install python-is-python3
+```
+
+6. To install VSCode (with snapd pre installed)
+
+```
+sudo snap install --classic code
+```
+
+otherwise might need to do:
+```
+sudo apt update
+sudo apt install snapd
+```
+
+7. To open VSCode
+```
+code .
 ```
 
 
