@@ -1,6 +1,5 @@
 - Cloning the repository:
-'''
-git clone <REPOSITORY_HTTPS_LINK>
+''' git clone <REPOSITORY_HTTPS_LINK>
 '''
 
 - Moving a file to repository:
