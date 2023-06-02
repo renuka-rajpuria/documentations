@@ -50,20 +50,20 @@ Users could even write simple code (called **shell scripts**) which could be use
 
 ## For absolute beginners
 
-1. Remember to do the following everytime you login to your system: [(Reference)](https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/)
+### 1. Remember to do the following everytime you login to your system: [(Reference)](https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/)
 
 ```
 sudo apt update
 sudo apt-get upgrade (There are different variations of this)
 ```
 
-2. To check version of ubuntu go for neofetch, if not installed type:
+### 2. To check version of ubuntu go for neofetch, if not installed type:
 
 ```
 sudo apt install neofetch
 ```
 
-3. To check version for Python:
+### 3. To check version for Python:
 
 ```
 python --version or python3 --version
@@ -71,7 +71,7 @@ python -V or python3 -V
 ```
 (Check the capital V, if you write small V it will go in the interpreter)
 
-4. To install gcc:
+### 4. To install gcc:
 
 ```
 sudo apt install gcc
@@ -79,13 +79,13 @@ sudo apt install g++
 
 ```
 
-5. If you have python3 and do not want to write it repeatedly:
+### 5. If you have python3 and do not want to write it repeatedly:
 
 ```
 sudo apt install python-is-python3
 ```
 
-6. To install VSCode (with snapd pre installed)
+### 6. To install VSCode (with snapd pre installed)
 
 ```
 sudo snap install --classic code
@@ -97,12 +97,12 @@ sudo apt update
 sudo apt install snapd
 ```
 
-7. To open VSCode
+### 7. To open VSCode
 ```
 code .
 ```
 
-8. To install Anaconda:
+### 8. To install Anaconda:
 
 - To install Conda on Linux, you can follow these steps:
 
@@ -110,13 +110,9 @@ code .
 
 - Once you have downloaded the installer script, open a terminal and navigate to the directory where the script is located.
 
-- Make the installer script executable by running the following command:
+- Make the installer script executable by running the following command: ```chmod +x Miniconda*.sh```
 
-```chmod +x Miniconda*.sh```
-
-- Run the installer script with the following command:
-
-```./Miniconda*.sh```
+- Run the installer script with the following command: ```./Miniconda*.sh```
 
 - The installer will guide you through the installation process. You will be prompted to review and accept the license agreement, choose the installation location, and optionally add Conda to your system's PATH variable.
 
