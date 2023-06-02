@@ -102,7 +102,30 @@ sudo apt install snapd
 code .
 ```
 
-8. To 
+8. To install Anaconda:
+
+- To install Conda on Linux, you can follow these steps:
+
+- Visit the official Miniconda website at https://docs.conda.io/en/latest/miniconda.html to download the installer script appropriate for your Linux distribution. You will find different installer scripts for different versions of Linux (e.g., 64-bit or 32-bit).
+
+- Once you have downloaded the installer script, open a terminal and navigate to the directory where the script is located.
+
+- Make the installer script executable by running the following command:
+
+```chmod +x Miniconda*.sh```
+
+- Run the installer script with the following command:
+
+```./Miniconda*.sh```
+
+- The installer will guide you through the installation process. You will be prompted to review and accept the license agreement, choose the installation location, and optionally add Conda to your system's PATH variable.
+
+- After the installation is complete, close and reopen your terminal to activate the changes to the PATH variable.
+
+- You can verify that Conda is installed correctly by running the following command:
+```conda --version```
+
+- This should display the version of Conda installed on your system. Remember that Conda is a separate package management system, so you may need to create and activate Conda environments to manage packages and dependencies for different projects. You can refer to the Conda documentation for more details on how to work with Conda environments.
 
 ## Useful Addons/Applications
 
