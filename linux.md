@@ -123,6 +123,43 @@ code .
 
 - This should display the version of Conda installed on your system. Remember that Conda is a separate package management system, so you may need to create and activate Conda environments to manage packages and dependencies for different projects. You can refer to the Conda documentation for more details on how to work with Conda environments.
 
+### 8. To use Jupyter Notebooks:
+a) Without virtual environment:
+- Install Jupyter using Conda:```conda install jupyter```
+- This command will install Jupyter and its dependencies into your Conda environment.
+- Once the installation is complete, you can launch Jupyter Notebook by running:```jupyter notebook```
+- This will start the Jupyter Notebook server, and you can access it through your web browser.
+
+b) With virtual environment:
+- Create a new Conda environment (optional but recommended): ```conda create --name myenv```
+- Replace "myenv" with the desired name for your environment.
+- Activate the Conda environment: ```conda activate myenv```
+- Replace "myenv" with the name of your environment.
+- Install Jupyter using Conda:```conda install jupyter```
+- This command will install Jupyter and its dependencies into your Conda environment.
+- Once the installation is complete, you can launch Jupyter Notebook by running:```jupyter notebook```
+- This will start the Jupyter Notebook server, and you can access it through your web browser.
+- Please note that you can also install JupyterLab, an alternative web-based interface to Jupyter Notebook, using Conda with the following command:```conda install jupyterlab```
+- JupyterLab provides a more feature-rich and flexible environment for interactive computing and data science workflows.
+- Remember to activate your Conda environment before installing or running Jupyter to ensure that it is installed within the correct environment.
+
+Extra: Pros and Cons of Virtual Environments:
+Pros:
+
+    Isolation
+    Reproducibility
+    Easy package management
+    Cross-platform compatibility
+    Environment sharing
+
+Cons:
+
+    Disk space
+    Installation time
+    Learning curve
+    Overhead
+
+
 ## Useful Addons/Applications
 
 1. xtrlock
