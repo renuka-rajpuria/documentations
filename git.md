@@ -37,7 +37,7 @@ Having these two options enabled will prevent you accidentally exposing your per
 
 You may also notice an email address under the Keep my email addresses private option, this is your private GitHub email address. If you plan to use this, make note of it now as you will need it when setting up Git in the next step.
 
-- Setup Git (Do check the (reference)[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address])
+- Setup Git (Do check the (reference) [https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address])
 
 For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
