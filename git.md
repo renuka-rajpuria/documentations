@@ -31,7 +31,7 @@ If the version number is less than 2.28, follow the instructions again.
 
 Go to GitHub.com and create an account! During the account setup, it will ask you for an email address. This needs to be a real email, and will be used by default to identify your contributions. If you are privacy conscious, or just don’t want your email address to be publicly available, make sure you tick the following two boxes on the Email Settings page after you have signed in:
 
-GitHub Email Settings
+- GitHub Email Settings
 
 Having these two options enabled will prevent you accidentally exposing your personal email address when working with Git and GitHub.
 
@@ -66,7 +66,7 @@ You’ll also likely want to set your default branch reconciliation behavior to 
 git config --global pull.rebase false
 ```
 
-To verify that things are working properly, enter this command and verify whether the output matches your name and email address.
+To verify that things are working properly, enter this command and verify whether the output matches your name, email address and other settings.
 ```
 git config --list
 ```
@@ -75,6 +75,7 @@ In case you have made any errors and want to reconfigure git use:
 ```
 rm ~/.gitconfig
 ```
+Remember to rewrite all the previous commands in Configure Git and Github after this.
 
 ---- 
 
