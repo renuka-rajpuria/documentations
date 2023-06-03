@@ -161,6 +161,7 @@ Cons:
 
 
 ### 8. To setup Git and Github:
+Instructions are available on git.md
 
 
 
