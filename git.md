@@ -1,4 +1,4 @@
-### Setting up Git
+### 1. Setting up Git
 
 Step 1.1: Update the system
 
