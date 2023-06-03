@@ -27,6 +27,7 @@ git --version
 
 If the version number is less than 2.28, follow the instructions again.
 
+---- 
 
 - Cloning the repository:
 ```
