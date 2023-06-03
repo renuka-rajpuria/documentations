@@ -146,24 +146,26 @@ b) With virtual environment:
 Extra: Pros and Cons of Virtual Environments:
 Pros:
 
-    Isolation
-    Reproducibility
-    Easy package management
-    Cross-platform compatibility
-    Environment sharing
+> - Isolation
+> - Reproducibility
+> - Easy package management
+> - Cross-platform compatibility
+> - Environment sharing
 
 Cons:
 
-    Disk space
-    Installation time
-    Learning curve
-    Overhead
+> - Disk space
+> - Installation time
+> - Learning curve
+> - Overhead
 
 
 ## Useful Addons/Applications
 
 1. Tab completions
-    For example, it’s pretty common to have a Documents folder and a Downloads folder in the home directory. If you’ve typed cd D and then press Tab, the command line will let you know that it’s not sure which one you want by showing you the different options that match what you’ve typed so far: bash $ cd D Documents/ Downloads/ $ cd D But once you’ve typed in a little bit more, it will complete the name for you, making it possible to write out the full file path above by typing as little as cd Doc[tab]O[tab]f[tab]j[tab]cal[tab]
+    For example, it’s pretty common to have a Documents folder and a Downloads folder in the home directory. If you’ve typed ```cd D``` and then press Tab, the command line will let you know that it’s not sure which one you want by showing you the different options that match what you’ve typed so far: ```bash $ cd D Documents/ Downloads/ $ cd D``` 
+    
+    But once you’ve typed in a little bit more, it will complete the name for you, making it possible to write out the full file path above by typing as little as ```cd Doc[tab]O[tab]f[tab]j[tab]cal[tab]```
 
 
 2. xtrlock
