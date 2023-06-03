@@ -1,5 +1,5 @@
 ## References
-[Linux Beginners Guide](https://ubuntu.com/tutorials/command-line-for-beginners)
+[Linux Beginners Guide]([https://ubuntu.com/tutorials/command-line-for-beginners](https://ubuntu.com/tutorials/command-line-for-beginners))
 
 ## Introduction
 Wrapping the user’s commands this **shell** program.
@@ -162,11 +162,15 @@ Cons:
 
 ## Useful Addons/Applications
 
-1. xtrlock
+1. Tab completions
+    For example, it’s pretty common to have a Documents folder and a Downloads folder in the home directory. If you’ve typed cd D and then press Tab, the command line will let you know that it’s not sure which one you want by showing you the different options that match what you’ve typed so far: bash $ cd D Documents/ Downloads/ $ cd D But once you’ve typed in a little bit more, it will complete the name for you, making it possible to write out the full file path above by typing as little as cd Doc[tab]O[tab]f[tab]j[tab]cal[tab]
+
+
+2. xtrlock
    > - Locks X display until the password is supplied, leaving the windows visibile. This is great if you want to lock your screen, but still keep windows visible.
    > - Install via `sudo apt-get install xtrlock`
    > - Kindly note that this will only work well on systems containing the *[X display server](https://ubuntu.com/tutorials/command-line-for-beginners)*. Hence it's most likely to not work in modern versions of Ubuntu
-2. xwinwrap
+3. xwinwrap
    > - A lightweight application that allows you to set a video/gif as a desktop wallpaper. For more details on implementation visit [ujjwal96/xwinwrap](https://github.com/ujjwal96/xwinwrap) and this Reddit [post](https://www.reddit.com/r/archlinux/comments/8jnnm3/how_do_i_set_a_gif_as_my_background_with_xwinwrap/)
    > - This application is limited to devices containing the X display server.
 
