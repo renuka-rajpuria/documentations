@@ -160,6 +160,10 @@ Cons:
 > - Overhead
 
 
+### 8. To setup Git and Github:
+
+
+
 ## Useful Addons/Applications
 
 1. Tab completions
