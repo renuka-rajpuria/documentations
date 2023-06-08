@@ -186,8 +186,10 @@ Instructions are available on git.md
     > - They help in configuring the network details. 
     > - Install it using: `sudo apt install net-tools `
     > - Some common network commands are:
-      `nmtui
-      ifconfig`
+      `nmtui, ifconfig`
+
+5. Installing whatsapp for linus:`sudo snap install whatsapp-for-linux`
+6. Installing obsidian for linus: [Follow this](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
 
 
 
