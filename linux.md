@@ -184,10 +184,10 @@ Instructions are available on git.md
 
 4. net-tools
     > - They help in configuring the network details. 
-    > - Install it using: ```sudo apt install net-tools ```
+    > - Install it using: `sudo apt install net-tools `
     > - Some common network commands are:
-        `nmtui
-        ifconfig`
+      `nmtui
+      ifconfig`
 
 
 
