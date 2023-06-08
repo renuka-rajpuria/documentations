@@ -1,7 +1,7 @@
 ## Installing mongodb:
 
 1. Download the required package from [MongoDB community edition](https://www.mongodb.com/try/download/community)
-2. ```cd ``` into the downloads folder and type: ```sudo dpkg -i <PACKAGE_NAME>```
+2. ```cd``` into the downloads folder and type: ```sudo dpkg -i <PACKAGE_NAME>```
 3. Check if it has been successfully installed using: ```mongod --version```
 4. Start MongoDB server using: ```sudo systemctl start mongod```
 5. Check the status using: ```sudo systemctl status mongod```
