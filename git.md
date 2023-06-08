@@ -114,6 +114,38 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 Follow the directions in [this article from GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) to verify your SSH connection (Don’t forget to omit the $ when you copy and paste the code!). You should see this response in your terminal: Hi username! You’ve successfully authenticated, but GitHub does not provide shell access. Don’t let GitHub’s lack of providing shell access trouble you. If you see this message, you’ve successfully added your SSH key and you can move on. If the output doesn’t correctly match up, then try going through these steps again
 
+### 3. Pushing files to Github (using SSH):
+
+If we use SSH we do not need to give our username and password. Please note that sometimes it might give an error when you try to SSH into Github, in that case try changing the network connectivity of your system or updating it.
+
+Step 3.1: Initializing git
+```
+git init
+```
+
+Step 3.2: Add git to the staging area
+```
+git add .
+```
+
+Step 3.3: Commit the changes
+```
+git commit -m "<COMMIT_MESSAGE>"
+```
+
+Step 3.4: Add the Github Repository
+
+It is preferred that the Github Repository is not initialized with README.md or .gitigore
+```
+git remote add origin git@github.com:<USERNAME>/<REPOSITORY_NAME>.git
+```
+
+Step 3.5: Push the changes
+```
+git push -u origin master
+```
+
+Checking the status is an optional step and can be done with: ```git status```
 ---- 
 
 - Cloning the repository:
