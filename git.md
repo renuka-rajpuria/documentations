@@ -116,7 +116,8 @@ Follow the directions in [this article from GitHub](https://docs.github.com/en/a
 
 ### 3. Pushing files to Github (using SSH):
 
-If we use SSH we do not need to give our username and password. Please note that sometimes it might give an error when you try to SSH into Github, in that case try changing the network connectivity of your system or updating it.
+If we use SSH we do not need to give our username and password. Please note that sometimes it might give an error when you try to SSH into Github, in that case try changing the network connectivity of your system or updating it. To SSH into Github use: ```ssh -T git@github.com
+```
 
 Step 3.1: Initializing git
 ```
