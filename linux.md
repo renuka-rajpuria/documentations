@@ -177,10 +177,17 @@ Instructions are available on git.md
    > - Locks X display until the password is supplied, leaving the windows visibile. This is great if you want to lock your screen, but still keep windows visible.
    > - Install via `sudo apt-get install xtrlock`
    > - Kindly note that this will only work well on systems containing the *[X display server](https://ubuntu.com/tutorials/command-line-for-beginners)*. Hence it's most likely to not work in modern versions of Ubuntu
+   
 3. xwinwrap
    > - A lightweight application that allows you to set a video/gif as a desktop wallpaper. For more details on implementation visit [ujjwal96/xwinwrap](https://github.com/ujjwal96/xwinwrap) and this Reddit [post](https://www.reddit.com/r/archlinux/comments/8jnnm3/how_do_i_set_a_gif_as_my_background_with_xwinwrap/)
    > - This application is limited to devices containing the X display server.
 
+4. net-tools
+    > - They help in configuring the network details. 
+    > - Install it using: ```sudo apt install net-tools ```
+    > - Some common network commands are:
+        `nmtui
+        ifconfig`
 
 
 
