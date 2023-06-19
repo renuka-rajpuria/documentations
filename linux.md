@@ -190,6 +190,6 @@ Instructions are available on git.md
 
 5. Installing whatsapp for linus:`sudo snap install whatsapp-for-linux`
 6. Installing obsidian for linus: [Follow this](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
-
+7. Getting rid of the entire directory location: [Follow this](https://askubuntu.com/questions/145618/how-can-i-shorten-my-command-line-bash-prompt)
 
 
