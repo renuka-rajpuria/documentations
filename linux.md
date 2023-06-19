@@ -23,6 +23,7 @@ Users could even write simple code (called **shell scripts**) which could be use
 | pwd  | print working directory  | all file operations will take place here |
 | cd  | change directory  | [see variations]() |
 | ls  | list  |  |
+| mv  | move  | can also be used to rename files |
 
 
 ## Basics
