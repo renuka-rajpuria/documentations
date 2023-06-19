@@ -148,6 +148,14 @@ git push -u origin master
 Checking the status is an optional step and can be done with: ```git status```
 
 ---- 
+### Git Basics:
+
+If you have made changes in the repository from GUI remember to do a ```git pull``` before pushing again. 
+
+
+
+
+
 
 - Cloning the repository:
 ```
