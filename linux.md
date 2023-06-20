@@ -18,12 +18,15 @@ Users could even write simple code (called **shell scripts**) which could be use
 | Ctrl-Shft-V  | Pasting in the terminal |
 
 ## All Commands
-| Command  | Function | Comments |
+| Command | Function | Comments |
 | ------------- | ------------- | ------------- |
-| pwd  | print working directory  | all file operations will take place here |
-| cd  | change directory  | [see variations]() |
-| ls  | list  |  |
-| mv  | move  | can also be used to rename files |
+| pwd | print working directory | all file operations will take place here |
+| cd | change directory | [see variations]() |
+| ls | list | lists all files |
+| mv | move | can also be used to rename files |
+| la | list | lists even hidden files |
+| rmdir | remove | only for empty directories |
+| rm -r | remove | recursively remove all files from directory |
 
 
 ## Basics
