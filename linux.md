@@ -179,7 +179,7 @@ Instructions are available on git.md
 
 2. xtrlock
    > - Locks X display until the password is supplied, leaving the windows visibile. This is great if you want to lock your screen, but still keep windows visible.
-   > - Install via `sudo apt-get install xtrlock`
+   > - Install via ```sudo apt-get install xtrlock```
    > - Kindly note that this will only work well on systems containing the *[X display server](https://ubuntu.com/tutorials/command-line-for-beginners)*. Hence it's most likely to not work in modern versions of Ubuntu
    
 3. xwinwrap
@@ -188,9 +188,9 @@ Instructions are available on git.md
 
 4. net-tools
     > - They help in configuring the network details. 
-    > - Install it using: `sudo apt install net-tools `
+    > - Install it using: ```sudo apt install net-tools ```
     > - Some common network commands are:
-      `nmtui, ifconfig`
+      ```nmtui, ifconfig```
 
 5. Installing whatsapp for linus:`sudo snap install whatsapp-for-linux`
 6. Installing obsidian for linus: [Follow this](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
