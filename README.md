@@ -1,4 +1,4 @@
-Migrate to [this](https://docusaurus.io/)
+## Migrate to [this](https://docusaurus.io/)
 
 # Documentations
 This repository is meant for personalized guides of various developer tools, the sources mostly includes snippets from the official documentation.
