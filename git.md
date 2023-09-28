@@ -1,3 +1,5 @@
+Large files: [Git-Lfs](https://git-lfs.com/)
+
 ### 1. Install Git
 
 Step 1.1: Update the system
